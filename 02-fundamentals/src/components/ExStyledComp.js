@@ -79,7 +79,7 @@ export default function ExStyledComp() {
   return (
     <>
       <GlobalStyle />
-      <h2>Styled-Components</h2>
+      <h2>Styled-Components e</h2>
       <MyH3>Hola Soy un h3 estilizado con styled-components</MyH3>
       <MyH3 color="#61dafb">
         Hola Soy un h3 estilizado con styled-components

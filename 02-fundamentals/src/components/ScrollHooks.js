@@ -23,9 +23,9 @@ export default function ScrollHooks() {
 
     return (
         <div>
-            <h1>Scroll Hooks - use effect - scroll position: {scrollY}</h1>
-            <button onClick={() => setNumber(number + 1) }>{number}</button>
-            <button onClick={() => setNumber(number - 1) }>{number}</button>
+            <h1>Scroll Hooks - use effect - {number} - scroll position: {scrollY}</h1>
+            <button onClick={() => setNumber(number + 2) }>+</button>
+            <button onClick={() => setNumber(number - 2) }>-</button>
         </div>
     );
 }

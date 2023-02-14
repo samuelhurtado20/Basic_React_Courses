@@ -16,9 +16,9 @@ export const useFetch = (url) => {
         const res = await fetch(url, { signal });
 
         if (!res.ok) {
-          let err = new Error("Error en la petición Fetch");
+          let err = new Error("Error in the request Fetch");
           err.status = res.status || "00";
-          err.statusText = res.statusText || "Ocurrió un error";
+          err.statusText = res.statusText || "Unexpected error";
           throw err;
         }
 

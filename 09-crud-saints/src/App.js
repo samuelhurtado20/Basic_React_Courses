@@ -9,7 +9,7 @@ import SongSearch from "./components/SongSearch";
 function App() {
   return (
     <>
-      <h1>Ejercicios con React</h1>
+      <h1>Examples with React</h1>
       <hr />
       {/* <Modals /> */}
       <hr />
@@ -27,3 +27,6 @@ function App() {
 }
 
 export default App;
+
+// npm i json-server
+// npm run fakeapi
